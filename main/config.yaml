@@ -1,0 +1,19 @@
+---
+
+is_debug: true
+
+listen:
+  type: port
+  port: 8080
+storage:
+  host: localhost
+  port: 5432
+  database: postgres
+  username: postgres
+  password: postgres
+nats_streaming:
+  cluster-id: test-cluster
+  client_id: your_client_id_33
+  subject: your_subject
+  durable_name: durable_order_sub
+  nats_url: nats://localhost:4222
